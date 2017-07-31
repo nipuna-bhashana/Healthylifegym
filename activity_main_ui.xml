@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginui"
+    tools:context="com.example.chabha.healthylifegym.MainUi">
+
+
+    <Button
+        android:id="@+id/viewAll"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/btn"
+        android:text="View All customers"/>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/btn"
+        android:text="Search Customer"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/btn"
+        android:text="Update customer"
+         />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/a"
+        android:layout_alignTop="@+id/update"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="125dp"
+        app:srcCompat="@drawable/a1"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginui"
+    tools:context="com.example.chabha.healthylifegym.login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="168dp"
+        android:text="Login"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter user name"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_alignBaseline="@+id/signIn"
+        android:layout_alignBottom="@+id/signIn"
+        android:layout_toStartOf="@+id/signIn"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/uName"
+        android:layout_alignEnd="@+id/uName" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="125dp"
+        app:srcCompat="@drawable/a1"
+        />
+
+
+</RelativeLayout>

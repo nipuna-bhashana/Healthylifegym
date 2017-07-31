@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginui"
+    tools:context="com.example.chabha.healthylifegym.signup">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="140dp"
+        android:text="SignUp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="55dp"
+            android:hint="Enter Name"
+            android:id="@+id/name"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="55dp"
+            android:hint="Enter Age"
+            android:id="@+id/age"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="55dp"
+            android:hint="Enter Mobile No"
+            android:id="@+id/mobNo"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="60dp"
+            android:text="Select Gender"
+            android:textSize="18dp"
+            android:id="@+id/gender"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:id="@+id/radiogrp"
+            android:layout_height="80dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="80dp">
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="Male"
+                android:id="@+id/radioMale"/>
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_marginTop="-60dp"
+                android:layout_marginLeft="80dp"
+                android:layout_height="60dp"
+                android:text="Female"
+                android:id="@+id/radioFemale"/>
+
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/btnCancel"
+            android:text="Cancel"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btnSave"
+            android:text="Save"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
